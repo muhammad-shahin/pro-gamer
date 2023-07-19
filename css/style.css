@@ -340,8 +340,9 @@ body {
 /* Footer section style starts here */
 footer {
   background: #0b0223;
-  height: 50vh;
+  height: auto;
   margin-top: 5%;
+  padding: 5%;
 }
 .footer-container {
   width: 80%;
