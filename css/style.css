@@ -242,6 +242,25 @@ body {
     width: 80%;
   }
   /* banner responsive style ends here */
+
+
+  /* we-gamer responsive style starts here */
+  .we-gamer-container {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .we-gamer-left {
+    width: 100%;
+    text-align: center;
+  }
+  .we-gamer-title {
+    text-align: center;
+  }
+  .we-gamer-description {
+    text-align: center;
+  }
+  /* we-gamer responsive style ends here */
 }
 @media (min-width: 576px) and (max-width: 790px) {
   /* nav bar Responsive style starts here */
@@ -298,4 +317,22 @@ body {
     width: 80%;
   }
   /* banner responsive style ends here */
+
+  /* we-gamer responsive style starts here */
+  .we-gamer-container {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .we-gamer-left {
+    width: 100%;
+    text-align: center;
+  }
+  .we-gamer-title {
+    text-align: center;
+  }
+  .we-gamer-description {
+    text-align: center;
+  }
+  /* we-gamer responsive style ends here */
 }
