@@ -282,22 +282,62 @@ body {
   max-width: 350px;
   margin: 20px auto;
 }
-.play-instantly-right{
+.play-instantly-right {
   position: relative;
-}
-.play-instantly-right img{
   width: 100%;
 }
-.sub-img{
+.play-instantly-right img {
+  width: 80%;
+}
+.sub-img {
   position: absolute;
-  top: 50%;
+  top: 60%;
   right: 70%;
-  width: 100%;
+  max-width: 45%;
 }
 /* play instantly section style ends here */
 
+/* game category style starts here */
+.category-section {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  margin: 10% auto;
+}
+.category-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 80%;
+  height: 30vh;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.category-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  color: #0b0223;
+  font-size: 24px;
+  font-weight: 600;
+  width: 15%;
+}
+.category-card h6{
+  margin-left: 5px;
+}
+.category-card:hover {
+  cursor: pointer;
+  border: 5px solid #f948b2;
+  border-radius: 50px;
+  color: #f948b2;
+}
 
-
+/* game category style ends here */
 
 /* Responsive style starts here */
 /* for mobile */
@@ -389,38 +429,53 @@ body {
   }
   /* Online game funny video ends starts here*/
 
-
   /* play instantly section responsive style starts here */
 
-.play-instantly-container {
-  flex-direction: column;
-}
-.play-instantly-left h1{
-  text-align: center;
-  font-size: 30px;
-}
-.play-instantly-left p{
-  text-align: center;
-}
-.play-instantly-right img{
+  .play-instantly-container {
+    flex-direction: column;
+  }
+  .play-instantly-left h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .play-instantly-left p {
+    text-align: center;
+  }
+  .play-instantly-right img {
+    width: 80%;
+  }
+  .play-instantly-right {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto 0 0;
+  }
+  .sub-img {
+    max-width: 40%;
+    top: 70%;
+    right: 65%;
+  }
+  /* play instantly section responsive style ends here */
+
+  /* game category style starts here */
+  .category-section{
+    margin-top: 20%;
+  }
+.category-container {
   width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
-.play-instantly-right{
-  width: 100%;
-  text-align: center;
-  margin: 20px auto 0 0;
-}
-.sub-img{
-  max-width: 40%;
-  top: 70%;
-  right: 65%;
-}
-/* play instantly section responsive style ends here */
+.category-card {
+  width: auto;
+  
 }
 
-
-
-
+/* game category style ends here */
+}
 
 /* responsive for tab devices */
 @media (min-width: 576px) and (max-width: 790px) {
@@ -503,29 +558,43 @@ body {
     gap: 20px;
   }
   /* Online game funny video ends starts here*/
-    /* play instantly section responsive style starts here */
+  /* play instantly section responsive style starts here */
 
-.play-instantly-container {
-  flex-direction: column;
+  .play-instantly-container {
+    flex-direction: column;
+  }
+  .play-instantly-left h1 {
+    text-align: center;
+  }
+  .play-instantly-left p {
+    text-align: center;
+  }
+  .play-instantly-right img {
+    width: 80%;
+  }
+  .play-instantly-right {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto 0 0;
+  }
+  .sub-img {
+    max-width: 40%;
+    top: 70%;
+    right: 65%;
+  }
+  /* play instantly section responsive style ends here */
+   /* game category style starts here */
+.category-section{
+  margin-top: 20%;
 }
-.play-instantly-left h1{
-  text-align: center;
-}
-.play-instantly-left p{
-  text-align: center;
-}
-.play-instantly-right img{
+.category-container {
   width: 80%;
+  gap: 5px;
 }
-.play-instantly-right{
-  width: 100%;
-  text-align: center;
-  margin: 20px auto 0 0;
+.category-card {
+  width: auto;
+  
 }
-.sub-img{
-  max-width: 40%;
-  top: 70%;
-  right: 65%;
-}
-/* play instantly section responsive style ends here */
+
+/* game category style ends here */
 }
