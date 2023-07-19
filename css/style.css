@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap");
+:root {
+  /* Colors */
+  --gradient-color: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  --primary-btn-color: linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  --text-des-color: #534c64;
+  /* Font Sizes */
+  --title-font-size: 48px;
+  --title-font-weight: 700;
+  --des-font-size: 18px;
+  --des-font-weight: 400;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Nav bar style starts here */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100vw - 25vw);
+  margin: 30px auto;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.logo-text {
+  margin-left: 10px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+.gamer {
+  color: #f948b2;
+}
+/* menu item style */
+.menu-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-item a {
+  text-decoration: none;
+  color: var(--text-des-color);
+  margin-right: 15px;
+  font-size: var(--des-font-size);
+  font-weight: var(--des-font-weight);
+}
+.menu-item button > img{
+  width: 24px;
+} 
+.yt-tiktok{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(11, 2, 35, 0.1);
+  border-radius: 8px;
+  padding: 8px 20px;
+  gap: 10px;
+  font-size: var(--des-font-size);
+  font-weight: var(--des-font-weight);
+}
+/* Nav bar style ends here */
